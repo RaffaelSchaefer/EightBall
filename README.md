@@ -1,2 +1,2 @@
 # Eight Ball
-A small eight ball Website
+A small eight ball game made with js
