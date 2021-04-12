@@ -1,4 +1,4 @@
-var eightBallAnswers = [
+let eightBallAnswers = [
     "IT IS CERTAIN",
     "IT IS DECIDEDLY SO",
     "WITHOUT A DOUBT",
