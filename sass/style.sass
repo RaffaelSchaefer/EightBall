@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap')
+
+$fontSizeUI: 25pt
+
+*
+    margin: 0
+    padding: 0
+    font-family: "Dela Gothic One", "Lexend", Arial, sans-serif
+
+#container
+    display: grid
+    place-items: center
+
+    height: 100vh
+    width: 100vw
+
+    color: #fff
+
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 25%, rgba(253,135,45,1) 50%, rgba(253,90,99,1) 75%, rgba(253,45,242,1) 100%)
+    background-size: 400%
+    animation: tide 25s ease-in-out infinite
+
+#wrapper
+    display: grid
+    place-items: center
+
+    height: 100vh
+    width: 80vw
+
+#output
+    font-size: $fontSizeUI*2
+    letter-spacing: 5px
+    text-align: center
+
+#newQuestion
+    font-family: "lexend", Arial, sans-serif
+    font-size: $fontSizeUI
+    text-align: center
+    text-decoration: none
+    border: none
+    color: white
+    background-color: transparent
+
+#githubLink
+    z-index: 1
+    position: absolute
+    padding: 1%
+
+@keyframes tide
+    0%
+        background-position: 0 50%
+
+    50%
+        background-position: 100% 50%
+
+    100%
+        background-position: 0 50%

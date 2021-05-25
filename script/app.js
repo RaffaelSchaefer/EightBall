@@ -1,3 +1,4 @@
+"use strict";
 let eightBallAnswers = [
     "IT IS CERTAIN",
     "IT IS DECIDEDLY SO",
@@ -19,7 +20,10 @@ let eightBallAnswers = [
     "MY SOURCES SAY NO",
     "OUTLOOK NOT SO GOOD",
     "VERY DOUBTFUL"
-]
-function eightBall () {
-    document.getElementById("Output").innerHTML = eightBallAnswers[Math.floor(Math.random() * eightBallAnswers.length)]
+];
+function ask() {
+    document.getElementById("output").innerHTML = eightBallAnswers[Math.floor(Math.random() * eightBallAnswers.length)];
 }
+document.getElementById("newQuestion").addEventListener('click', function () {
+    ask();
+});

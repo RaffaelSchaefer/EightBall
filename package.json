@@ -1,0 +1,25 @@
+{
+  "name": "eightball",
+  "version": "1.0.0",
+  "description": "A small eight-ball website",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass --include-path sass sass/style.sass css/style.css",
+    "typescript_compile": "tsc --build tsconfig.json",
+    "typescript_init": "tsc --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaffaelSchaefer/EightBall.git"
+  },
+  "author": "Raffael Elias Schäfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaffaelSchaefer/EightBall/issues"
+  },
+  "homepage": "https://github.com/RaffaelSchaefer/EightBall#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "sass": "^1.34.0"
+  }
+}
